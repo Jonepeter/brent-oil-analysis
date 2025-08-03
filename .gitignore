@@ -56,3 +56,6 @@ npm-debug.log*
 # Logs
 *.log
 logs/
+analysis_report.md
+interim_report.md
+setup_instructions.md
