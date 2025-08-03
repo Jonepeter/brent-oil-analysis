@@ -115,7 +115,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 👥 Contributors
 
-- **Lead Analyst**: [Your Name]
+- **Lead Analyst**: Petros Abebe
 - **Data Science Team**: 10 Academy Week 10 Project
 
 ---
