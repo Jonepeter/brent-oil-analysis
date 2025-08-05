@@ -25,7 +25,7 @@ const AnalysisSummary = ({ summary }) => {
       subtitle: 'Geopolitical & Economic'
     },
     {
-      title: 'Change Points',
+      title: 'Change Points Detected',
       value: summary.changepoints_detected,
       icon: <Analytics color="primary" />,
       subtitle: 'Structural Breaks Detected'
