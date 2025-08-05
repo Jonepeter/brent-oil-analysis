@@ -61,6 +61,10 @@ price_data = load_brent_data()
 events_data = load_events()
 events_data['Date'] = pd.to_datetime(events_data['Date'])
 
+@app.route('/')
+def index():
+    return "Welcome to the Brent Oil API"
+
 @app.route('/api/price-data')
 def get_price_data():
     """Get price data for visualization"""
@@ -68,7 +72,6 @@ def get_price_data():
     end_date = request.args.get('end_date')
     
     df = price_data.copy()
-    
     if start_date:
         df = df[df['Date'] >= start_date]
     if end_date:
