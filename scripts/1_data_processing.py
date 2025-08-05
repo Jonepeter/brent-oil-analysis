@@ -30,7 +30,7 @@ def main():
     df.to_csv(processed_dir / "brent-oil-prices_cleaned.csv", index=False)
 
     print(
-        f"✅ Processed {len(df)} observations ({df['Date'].min()} to {df['Date'].max()})"
+        f"Processed {len(df)} observations ({df['Date'].min()} to {df['Date'].max()})"
     )
 
 
